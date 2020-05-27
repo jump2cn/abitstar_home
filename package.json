@@ -1,0 +1,35 @@
+{
+  "name": "abitstar_home",
+  "version": "1.0.0",
+  "description": "abitstar.com index page",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --config configs/webpack.prod.js",
+    "start": "webpack-dev-server --hotOnly --config configs/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jump2cn/abitstar_home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jump2cn/abitstar_home/issues"
+  },
+  "homepage": "https://github.com/jump2cn/abitstar_home#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "animejs": "^3.2.0"
+  }
+}
